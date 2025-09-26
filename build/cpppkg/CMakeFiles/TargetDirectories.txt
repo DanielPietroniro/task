@@ -1,0 +1,10 @@
+/home/daniel/task/task/build/cpppkg/CMakeFiles/uninstall.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/cpppkg_uninstall.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/cppnode.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/test.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/edit_cache.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/rebuild_cache.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/list_install_components.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/install.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/install/local.dir
+/home/daniel/task/task/build/cpppkg/CMakeFiles/install/strip.dir
