@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000609] (cpppackage) JobQueued: {'identifier': 'cpppackage', 'dependencies': OrderedDict()}
+[0.000652] (pypkg) JobQueued: {'identifier': 'pypkg', 'dependencies': OrderedDict()}
+[0.000675] (cpppackage) JobStarted: {'identifier': 'cpppackage'}
+[0.007662] (pypkg) JobStarted: {'identifier': 'pypkg'}
+[0.014998] (cpppackage) JobProgress: {'identifier': 'cpppackage', 'progress': 'cmake'}
+[0.015858] (cpppackage) Command: {'cmd': ['/usr/bin/cmake', '/home/daniel/task/task/cpppackage', '-DCMAKE_INSTALL_PREFIX=/home/daniel/task/task/install/cpppackage'], 'cwd': '/home/daniel/task/task/build/cpppackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'daniel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daniel'), ('OLDPWD', '/home/daniel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daniel/task/task/install:/home/daniel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daniel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'daniel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/daniel-IdeaPad-Flex-5-14ALC7:@/tmp/.ICE-unix/1542,unix/daniel-IdeaPad-Flex-5-14ALC7:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/289bc92d_be24_4779_afb0_86ef0355370c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NTHCD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.237'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/daniel/task/task/install/pypkg:/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_py_pkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daniel/task/task/build/cpppackage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daniel/task/task/install/pypkg/lib/python3.10/site-packages:/home/daniel/ros2_ws/build/my_py_pkg:/home/daniel/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/home/daniel/task/task/install/pypkg:/home/daniel/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.089060] (cpppackage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099156] (-) TimerEvent: {}
+[0.159264] (cpppackage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.167541] (cpppackage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199357] (-) TimerEvent: {}
+[0.262488] (cpppackage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.271808] (cpppackage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.272247] (cpppackage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.272476] (cpppackage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.276022] (cpppackage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299528] (-) TimerEvent: {}
+[0.388904] (cpppackage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.398114] (cpppackage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.398482] (cpppackage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399066] (cpppackage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399595] (-) TimerEvent: {}
+[0.403057] (cpppackage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499814] (-) TimerEvent: {}
+[0.576890] (cpppackage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599988] (-) TimerEvent: {}
+[0.660963] (pypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/pypkg', 'build', '--build-base', '/home/daniel/task/task/build/pypkg/build', 'install', '--record', '/home/daniel/task/task/build/pypkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/daniel/task/task/pypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'daniel', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/daniel', 'OLDPWD': '/home/daniel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1572', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/daniel/task/task/install:/home/daniel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'daniel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daniel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daniel-IdeaPad-Flex-5-14ALC7:@/tmp/.ICE-unix/1542,unix/daniel-IdeaPad-Flex-5-14ALC7:/tmp/.ICE-unix/1542', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/289bc92d_be24_4779_afb0_86ef0355370c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NTHCD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.237', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/daniel/task/task/install/pypkg:/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_py_pkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daniel/task/task/build/pypkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/daniel/task/task/build/pypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/task/task/install/pypkg/lib/python3.10/site-packages:/home/daniel/task/task/install/pypkg/lib/python3.10/site-packages:/home/daniel/ros2_ws/build/my_py_pkg:/home/daniel/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[0.680495] (cpppackage) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700188] (-) TimerEvent: {}
+[0.720067] (cpppackage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.725039] (cpppackage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.733348] (cpppackage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.745194] (cpppackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.760665] (cpppackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800361] (-) TimerEvent: {}
+[0.802054] (cpppackage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.804603] (cpppackage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.875804] (pypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.876540] (pypkg) StdoutLine: {'line': b'writing ../build/pypkg/pypkg.egg-info/PKG-INFO\n'}
+[0.876935] (pypkg) StdoutLine: {'line': b'writing dependency_links to ../build/pypkg/pypkg.egg-info/dependency_links.txt\n'}
+[0.877223] (pypkg) StdoutLine: {'line': b'writing entry points to ../build/pypkg/pypkg.egg-info/entry_points.txt\n'}
+[0.877483] (pypkg) StdoutLine: {'line': b'writing requirements to ../build/pypkg/pypkg.egg-info/requires.txt\n'}
+[0.877741] (pypkg) StdoutLine: {'line': b'writing top-level names to ../build/pypkg/pypkg.egg-info/top_level.txt\n'}
+[0.879832] (pypkg) StdoutLine: {'line': b"reading manifest file '../build/pypkg/pypkg.egg-info/SOURCES.txt'\n"}
+[0.880597] (pypkg) StdoutLine: {'line': b"writing manifest file '../build/pypkg/pypkg.egg-info/SOURCES.txt'\n"}
+[0.880733] (pypkg) StdoutLine: {'line': b'running build\n'}
+[0.880837] (pypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.881167] (pypkg) StdoutLine: {'line': b'running install\n'}
+[0.881896] (pypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.883939] (pypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.884262] (pypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.886652] (pypkg) StdoutLine: {'line': b"removing '/home/daniel/task/task/install/pypkg/lib/python3.10/site-packages/pypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.887184] (pypkg) StdoutLine: {'line': b'Copying ../build/pypkg/pypkg.egg-info to /home/daniel/task/task/install/pypkg/lib/python3.10/site-packages/pypkg-0.0.0-py3.10.egg-info\n'}
+[0.888407] (pypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.900831] (-) TimerEvent: {}
+[0.935161] (pypkg) StdoutLine: {'line': b'Installing pynode script to /home/daniel/task/task/install/pypkg/lib/pypkg\n'}
+[0.935842] (pypkg) StdoutLine: {'line': b"writing list of installed files to '/home/daniel/task/task/build/pypkg/install.log'\n"}
+[0.948493] (cpppackage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.983318] (cpppackage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.001001] (-) TimerEvent: {}
+[1.006274] (pypkg) CommandEnded: {'returncode': 0}
+[1.018225] (pypkg) JobEnded: {'identifier': 'pypkg', 'rc': 0}
+[1.030961] (cpppackage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.041290] (cpppackage) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101194] (-) TimerEvent: {}
+[1.134593] (cpppackage) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.135131] (cpppackage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201409] (-) TimerEvent: {}
+[1.232409] (cpppackage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.233910] (cpppackage) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.285335] (cpppackage) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.301601] (-) TimerEvent: {}
+[1.402169] (-) TimerEvent: {}
+[1.415851] (cpppackage) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.426755] (cpppackage) StdoutLine: {'line': b'-- Generating done\n'}
+[1.432016] (cpppackage) StdoutLine: {'line': b'-- Build files have been written to: /home/daniel/task/task/build/cpppackage\n'}
+[1.462796] (cpppackage) CommandEnded: {'returncode': 0}
+[1.463814] (cpppackage) JobProgress: {'identifier': 'cpppackage', 'progress': 'build'}
+[1.465858] (cpppackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daniel/task/task/build/cpppackage', '--', '-j12', '-l12'], 'cwd': '/home/daniel/task/task/build/cpppackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'daniel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daniel'), ('OLDPWD', '/home/daniel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daniel/task/task/install:/home/daniel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daniel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'daniel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/daniel-IdeaPad-Flex-5-14ALC7:@/tmp/.ICE-unix/1542,unix/daniel-IdeaPad-Flex-5-14ALC7:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/289bc92d_be24_4779_afb0_86ef0355370c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NTHCD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.237'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/daniel/task/task/install/pypkg:/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_py_pkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daniel/task/task/build/cpppackage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daniel/task/task/install/pypkg/lib/python3.10/site-packages:/home/daniel/ros2_ws/build/my_py_pkg:/home/daniel/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/home/daniel/task/task/install/pypkg:/home/daniel/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[1.502379] (-) TimerEvent: {}
+[1.531022] (cpppackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppnode.dir/src/cppnode.cpp.o\x1b[0m\n'}
+[1.602588] (-) TimerEvent: {}
+[1.703148] (-) TimerEvent: {}
+[1.803756] (-) TimerEvent: {}
+[1.904354] (-) TimerEvent: {}
+[2.004949] (-) TimerEvent: {}
+[2.105572] (-) TimerEvent: {}
+[2.206164] (-) TimerEvent: {}
+[2.306787] (-) TimerEvent: {}
+[2.407388] (-) TimerEvent: {}
+[2.507851] (-) TimerEvent: {}
+[2.608309] (-) TimerEvent: {}
+[2.708763] (-) TimerEvent: {}
+[2.809225] (-) TimerEvent: {}
+[2.909686] (-) TimerEvent: {}
+[3.010147] (-) TimerEvent: {}
+[3.110626] (-) TimerEvent: {}
+[3.211110] (-) TimerEvent: {}
+[3.311610] (-) TimerEvent: {}
+[3.412065] (-) TimerEvent: {}
+[3.512537] (-) TimerEvent: {}
+[3.612985] (-) TimerEvent: {}
+[3.713464] (-) TimerEvent: {}
+[3.813918] (-) TimerEvent: {}
+[3.914369] (-) TimerEvent: {}
+[4.014826] (-) TimerEvent: {}
+[4.115308] (-) TimerEvent: {}
+[4.215758] (-) TimerEvent: {}
+[4.316243] (-) TimerEvent: {}
+[4.416695] (-) TimerEvent: {}
+[4.517146] (-) TimerEvent: {}
+[4.617623] (-) TimerEvent: {}
+[4.718080] (-) TimerEvent: {}
+[4.818670] (-) TimerEvent: {}
+[4.919137] (-) TimerEvent: {}
+[5.019626] (-) TimerEvent: {}
+[5.120097] (-) TimerEvent: {}
+[5.220589] (-) TimerEvent: {}
+[5.321069] (-) TimerEvent: {}
+[5.421560] (-) TimerEvent: {}
+[5.522015] (-) TimerEvent: {}
+[5.622484] (-) TimerEvent: {}
+[5.722945] (-) TimerEvent: {}
+[5.823435] (-) TimerEvent: {}
+[5.923905] (-) TimerEvent: {}
+[6.024389] (-) TimerEvent: {}
+[6.124855] (-) TimerEvent: {}
+[6.225314] (-) TimerEvent: {}
+[6.325759] (-) TimerEvent: {}
+[6.426234] (-) TimerEvent: {}
+[6.526677] (-) TimerEvent: {}
+[6.627128] (-) TimerEvent: {}
+[6.727600] (-) TimerEvent: {}
+[6.828046] (-) TimerEvent: {}
+[6.928518] (-) TimerEvent: {}
+[7.028973] (-) TimerEvent: {}
+[7.129447] (-) TimerEvent: {}
+[7.229896] (-) TimerEvent: {}
+[7.330341] (-) TimerEvent: {}
+[7.430785] (-) TimerEvent: {}
+[7.531258] (-) TimerEvent: {}
+[7.631697] (-) TimerEvent: {}
+[7.732147] (-) TimerEvent: {}
+[7.832618] (-) TimerEvent: {}
+[7.933065] (-) TimerEvent: {}
+[8.033544] (-) TimerEvent: {}
+[8.134005] (-) TimerEvent: {}
+[8.234486] (-) TimerEvent: {}
+[8.334926] (-) TimerEvent: {}
+[8.435399] (-) TimerEvent: {}
+[8.535885] (-) TimerEvent: {}
+[8.631571] (cpppackage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cppnode\x1b[0m\n'}
+[8.636036] (-) TimerEvent: {}
+[8.736576] (-) TimerEvent: {}
+[8.837121] (-) TimerEvent: {}
+[8.937618] (-) TimerEvent: {}
+[9.038090] (-) TimerEvent: {}
+[9.070336] (cpppackage) StdoutLine: {'line': b'[100%] Built target cppnode\n'}
+[9.084638] (cpppackage) CommandEnded: {'returncode': 0}
+[9.085325] (cpppackage) JobProgress: {'identifier': 'cpppackage', 'progress': 'install'}
+[9.096356] (cpppackage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/daniel/task/task/build/cpppackage'], 'cwd': '/home/daniel/task/task/build/cpppackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'daniel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daniel'), ('OLDPWD', '/home/daniel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1572'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daniel/task/task/install:/home/daniel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daniel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'daniel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/daniel-IdeaPad-Flex-5-14ALC7:@/tmp/.ICE-unix/1542,unix/daniel-IdeaPad-Flex-5-14ALC7:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/289bc92d_be24_4779_afb0_86ef0355370c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NTHCD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.237'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/daniel/task/task/install/pypkg:/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_py_pkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/daniel/task/task/build/cpppackage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daniel/task/task/install/pypkg/lib/python3.10/site-packages:/home/daniel/ros2_ws/build/my_py_pkg:/home/daniel/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/daniel/task/task/install/cpppkg:/home/daniel/ros2_ws/install/my_cpp_pkg:/home/daniel/task/task/install/pypkg:/home/daniel/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[9.104187] (cpppackage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.104594] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/lib/$(PROJECT_NAME)/cppnode\n'}
+[9.108175] (cpppackage) StdoutLine: {'line': b'-- Set runtime path of "/home/daniel/task/task/install/cpppackage/lib/$(PROJECT_NAME)/cppnode" to ""\n'}
+[9.108614] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/ament_index/resource_index/package_run_dependencies/cpppackage\n'}
+[9.108867] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/ament_index/resource_index/parent_prefix_path/cpppackage\n'}
+[9.109067] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/environment/ament_prefix_path.sh\n'}
+[9.109371] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/environment/ament_prefix_path.dsv\n'}
+[9.109603] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/environment/path.sh\n'}
+[9.109807] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/environment/path.dsv\n'}
+[9.110006] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.bash\n'}
+[9.110194] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.sh\n'}
+[9.110380] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.zsh\n'}
+[9.110486] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.dsv\n'}
+[9.110590] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/package.dsv\n'}
+[9.110688] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/ament_index/resource_index/packages/cpppackage\n'}
+[9.110768] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/cmake/cpppackageConfig.cmake\n'}
+[9.110846] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/cmake/cpppackageConfig-version.cmake\n'}
+[9.110923] (cpppackage) StdoutLine: {'line': b'-- Installing: /home/daniel/task/task/install/cpppackage/share/cpppackage/package.xml\n'}
+[9.113298] (cpppackage) CommandEnded: {'returncode': 0}
+[9.123514] (cpppackage) JobEnded: {'identifier': 'cpppackage', 'rc': 0}
+[9.124186] (-) EventReactorShutdown: {}

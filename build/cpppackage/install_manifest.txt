@@ -1,0 +1,16 @@
+/home/daniel/task/task/install/cpppackage/lib/cpppackage/cppnode
+/home/daniel/task/task/install/cpppackage/share/ament_index/resource_index/package_run_dependencies/cpppackage
+/home/daniel/task/task/install/cpppackage/share/ament_index/resource_index/parent_prefix_path/cpppackage
+/home/daniel/task/task/install/cpppackage/share/cpppackage/environment/ament_prefix_path.sh
+/home/daniel/task/task/install/cpppackage/share/cpppackage/environment/ament_prefix_path.dsv
+/home/daniel/task/task/install/cpppackage/share/cpppackage/environment/path.sh
+/home/daniel/task/task/install/cpppackage/share/cpppackage/environment/path.dsv
+/home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.bash
+/home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.sh
+/home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.zsh
+/home/daniel/task/task/install/cpppackage/share/cpppackage/local_setup.dsv
+/home/daniel/task/task/install/cpppackage/share/cpppackage/package.dsv
+/home/daniel/task/task/install/cpppackage/share/ament_index/resource_index/packages/cpppackage
+/home/daniel/task/task/install/cpppackage/share/cpppackage/cmake/cpppackageConfig.cmake
+/home/daniel/task/task/install/cpppackage/share/cpppackage/cmake/cpppackageConfig-version.cmake
+/home/daniel/task/task/install/cpppackage/share/cpppackage/package.xml
